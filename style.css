@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {}
+
+.header .logo {}
+
+.header .main-heading {}
+
+.header .nav-links {}
+
+.main {}
+
+.main .info {}
+
+.main .info .sec-heading {}
+
+.main .info .text-info {}
+
+.main .info .sign-up-buttom {}
+
+.main .main-image {}
+
+.places {}
+
+.places .thi-heading {}
+
+.places .items {}
+
+.places .items .item {}
+
+.places .items .item .image-item {}
+
+.places .items .item .text-item {}
+
+.quote {}
+
+.quote .quote-text {}
+
+.quote .quote-sign {}
+
+.sing-up-section {}
+
+.sign-up-section .card {}
+
+.sign-ip-section .card .card-text-container {}
+
+.sign-ip-section .card .card-text-container .card-title {}
+
+.sign-ip-section .card .card-text-container .card-text {}
+
+.sign-ip-section .card .sign-up-buttom {}
+
+.footer {}
+
+.footer .footer-text {}
