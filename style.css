@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  padding: 20px 20vw;
+  padding: 0 20vw;
   height: 20vh;
   background-color: #1F2937;
   display: flex;
@@ -45,17 +45,17 @@ body {
 }
 
 .main {
-  padding: 80px 20vw;
-  height: 80vh;
+  padding: 20px 20vw 50px 20vw; 
+  min-height: 80vh;
   background-color: #1F2937;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 50px;
 }
 
 .main .info {
-  flex: 1;
-  min-width: 300px;
+  flex: 1 1 300px;
 }
 
 .main .info .sec-heading {
@@ -80,8 +80,13 @@ body {
   border-radius: 18px;
 }
 
-.main .main-image {
-  height: 450px;
+.main .main-image-container {
+  flex: 1 1 400px;
+}
+
+.main .main-image-container .main-image {
+  height: auto;
+  max-width: 100%;
 }
 
 .places {}
@@ -94,7 +99,11 @@ body {
 
 .places .items .item .image-item {}
 
+.places .items .item .title-item {}
+
 .places .items .item .text-item {}
+
+.places .more-phrase {}
 
 .quote {}
 
