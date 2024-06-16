@@ -28,7 +28,6 @@ body {
 }
 
 .header .nav-links {
-  color: #E5E7EB;
   margin-left: auto;
   display: flex;
   gap: 20px;
@@ -89,21 +88,55 @@ body {
   max-width: 100%;
 }
 
-.places {}
+.places {
+  min-height: 60vh;
+  padding: 20px 20vw;
+}
 
-.places .thi-heading {}
+.places .thi-heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 40px;
+  min-width: max-content;
+}
 
-.places .items {}
+.places .items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
-.places .items .item {}
+.places .items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
-.places .items .item .image-item {}
+.places .items .item .image-item {
+  max-height: 200px;
+  width: 100%;
+}
 
-.places .items .item .title-item {}
+.places .items .item .title-item {
+  font-size: 17px;
+}
 
-.places .items .item .text-item {}
+.places .items .item .text-item {
+  color: #595959;
 
-.places .more-phrase {}
+}
+
+.places .more-phrase {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  padding-top: 50px;
+}
 
 .quote {}
 
