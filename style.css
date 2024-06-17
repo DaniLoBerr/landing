@@ -126,6 +126,7 @@ body {
 .places .items .item .image-item {
   max-height: 200px;
   width: 100%;
+  border-radius: 20px;
 }
 
 .places .items .item .title-item {
