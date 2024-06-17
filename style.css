@@ -48,13 +48,14 @@ body {
   min-height: 80vh;
   background-color: #1F2937;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 50px;
 }
 
 .main .info {
-  flex: 1 1 300px;
+  flex: 1;
 }
 
 .main .info .sec-heading {
@@ -80,7 +81,8 @@ body {
 }
 
 .main .main-image-container {
-  flex: 1 1 400px;
+  flex: 2;
+  min-width: 450px;
 }
 
 .main .main-image-container .main-image {
