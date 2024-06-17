@@ -71,10 +71,11 @@ body {
   margin-bottom: 10px;
 }
 
-.main .info .sign-up-button {
+.main .info .sign-up-button, .sign-up-section .card .sign-up-button {
   background-color: #3882f6;
   color: #E5E7EB;
   font-size: 15px;
+  font-weight: 900;
   padding: 10px 30px;
   border: none;
   border-radius: 18px;
@@ -145,7 +146,7 @@ body {
 .quote {
   background-color: #E5E7EB;
   min-height: 40vh;
-  padding: 40px 20vw;
+  padding: 40px 25vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,18 +164,49 @@ body {
   margin-left: auto;
 }
 
-.sing-up-section {}
+.sign-up-section {
+  min-height: 40vh;
+  padding: 40px 20vw;
+  display: flex;
+}
 
-.sign-up-section .card {}
+.sign-up-section .card {
+  margin: auto;
+  flex: 1;
+  background-color: #3882f6;
+  padding: 50px 150px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px
+}
 
-.sign-ip-section .card .card-text-container {}
+.sign-up-section .card .card-text-container {
+  color: #E5E7EB;
+}
 
-.sign-ip-section .card .card-text-container .card-title {}
+.sign-up-section .card .card-text-container .card-title {
+  font-size: 24px;
+}
 
-.sign-ip-section .card .card-text-container .card-text {}
+.sign-up-section .card .card-text-container .card-text {
+  font-size: 16px;
+}
 
-.sign-ip-section .card .sign-up-buttom {}
+.sign-up-section .card .sign-up-button {
+  border: 1px solid #E5E7EB;
+  margin-left: auto;
+  flex-shrink: 0;
+}
 
-.footer {}
+.footer {
+  padding: 40px 20vw;
+  height: 20vh;
+  background-color: #1F2937;
+  display: flex;
+}
 
-.footer .footer-text {}
+.footer .footer-text {
+  color: #E5E7EB;
+  margin: auto;
+}
